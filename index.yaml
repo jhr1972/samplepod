@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  test1:
+  - apiVersion: v2
+    created: "2022-09-23T17:39:08.649989-07:00"
+    description:  A dummy test
+    home: https://github.com/jhr1972/samplepod
+    #icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - helm
+    - csi
+    - aws
+    - secrets manager
+    kubeVersion: '>=1.17.0-0'
+    name: test1
+    sources:
+    - https://github.com/jhr1972/samplepod
+    type: application
+    #    urls:
+    #- https://github.com/aws/secrets-store-csi-driver-provider-aws/releases/download/secrets-store-csi-driver-provider-aws-0.1.0/secrets-store-csi-driver-provider-aws-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-23T17:39:08.650001-07:00"
+
